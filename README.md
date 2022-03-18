@@ -1,5 +1,4 @@
 # LoversID
-//cms
 ## Feature list
 1. Registration
     1. email
@@ -9,6 +8,10 @@
 2. Login
     1. email / phoneNumber
     2. password
+    3. loginWithGoogle
+    4. loginWithFacebook
+    5. loginWithTweeter
+    6. loginWithInstagram
 3. Forgot password
     1. email / phoneNumber
     2. otp
@@ -53,10 +56,63 @@
     25. description
     26. interestTag
     27. maritialStatus
-    28. 
+    28. monthlyIncome
+8. Match making
+    1. Propose Letter
+    2. Like
+    3. Dislike
+    4. Favorite
+    5. Gif
+    6. follow
+    7. unfollow
+9. Robust search
+10. Notification
+    1. Push notication web
+    2. Push notification mobile
+    3. Email notification
+    4. Sms notification
+11. Report
+12. Content management system
+13. message
+    1. oneToOne
+    2. groupMessage
+14. succesStory
+    1. story
+    2. details
+    3. picture
+    4. comment
+15. Payment Gatewaya
+16. Profile verification
+    1. NID verification
+    2. Passport verification
+    3. Certificate verification
+17. Post
+    1. area
+    2. gender
+    3. religion
+    4. description
+    5. eudcation
+18. Security
+19. SEO friendly
+20. Report
+    1. Daily
+    2. Weekly
+    3. Monthly
+    4. Yearly
+    5. Total
+21. Subscription
+    1. Daily
+    2. Weekly
+    3. Monthly
+    4. Yearly
+22. Log out
+23. Delete account
+24. Password recovery
+    1. email / phoneNumber
+    2. otp
 
 
-### Technology web
+### Technology & estimation
 ```
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
 |serial|  SDLC              |                    Technology / Source                    | Time/day  | Cost/Taka |
@@ -81,7 +137,7 @@
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
 
 *** SRS means software requirment specification.
-
+```
 ### Payment terms & pricing:
         
 You can pay us to maintain the following terms:
@@ -93,22 +149,8 @@ You can pay us to maintain the following terms:
 6. 150000/Taka at stage (6).
 7. 50000 /Taka at stage (7).
 
-
-
-Support:
-***Time will count after stage (6)
-
-Web: 
+# Project launch and bug solving policy: 
 ***1 year free service if any technical bug is found.
 
-App:
-***6 month free service if any technical bug is found.
-
-Monitoring & other support:
-***Determination after discussion.
-
-
-Discussion:
-***UI design
-***Features
-```
+# Server management:
+***After one year server management cost is 20000 BDT per month for 3 years contact.
