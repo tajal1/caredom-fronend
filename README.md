@@ -182,23 +182,23 @@
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
 |serial|  SDLC              |                    Technology / Source                    | Time/day  | Cost/Taka |
 |------|--------------------------------------------------------------------------------|-----------|-----------|
-|1.    |SRS                 | Tinder, Baidu, Tantan, Hinge, Google, matrimonial site    | 15        | 10000     |
+|1.    |SRS                 | Tinder, Baidu, Tantan, Hinge, Google, matrimonial site    | 15        |  0000     |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|2.    |System Design       | Microserive, SOA, MVC                                     | 30        | 50000     |
+|2.    |System Design       | Microserive, SOA, MVC                                     | 30        |  0000     |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|3.    |Backend development | NodeJS, MongooDB, Mongoose, RestAPI,RPC,Socket.io,Swagger | 60        | 100000    |
+|3.    |Backend development | NodeJS, MongooDB, Mongoose, RestAPI,RPC,Socket.io,Swagger | 60        |  00000    |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|4.    |Frontend design     | Figma, Photoshop, Illustrator                             | 15        | 50000     |
+|4.    |Frontend design     | Figma, Photoshop, Illustrator                             | 15        |  0000     |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|5.    |Frontend development| ReactJS, NextJS, Redux, HTML, CSS, tailwind css,          | 60        | 150000    |
+|5.    |Frontend development| ReactJS, NextJS, Redux, HTML, CSS, tailwind css,          | 60        |   0000    |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|6.    |DevOps Engineering  | AWS, S3, SNS, GIT, Docker, Wrike , Elastic cache, CI/CD   | 15        | 50000     |
+|6.    |DevOps Engineering  | AWS, S3, SNS, GIT, Docker, Wrike , Elastic cache, CI/CD   | 15        |  0000     |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|7.    |Mobile Application  | React Native (support android & ios both)                 | 60        | 150000    |
+|7.    |Mobile Application  | React Native (support android & ios both)                 | 60        |   0000    |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|8.    |Int & Unit testing  | JEST                                                      | 15        | 50000     |
+|8.    |Int & Unit testing  | JEST                                                      | 15        |  0000     |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
-|7.    |Total               | approximately                                             | 180       | 50000     |
+|7.    |Total               | approximately                                             | 180       |  0000     |
 |------|--------------------|-----------------------------------------------------------|-----------|-----------|
 
 *** SRS means software requirment specification.
