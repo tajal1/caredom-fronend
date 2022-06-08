@@ -204,15 +204,6 @@
 *** SRS means software requirment specification.
 ```
 ### Payment terms & pricing:
-        
-You can pay us to maintain the following terms:
-1. 15% advanced to conform the project at stage (1).
-2. 50000/Taka at stage (2).
-3. 100000/Taka at stage (3).
-4. 50000/Taka at stage (4).
-5. 150000/Taka at stage (5).
-6. 150000/Taka at stage (6).
-7. 50000 /Taka at stage (7).
 
 # Project launch and bug solving policy: 
 ***1 year free service if any technical bug is found.
