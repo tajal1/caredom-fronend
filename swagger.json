@@ -1,0 +1,49 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "LoversID backend API list",
+    "version": "1.0.0",
+    "title": "Loversid.com",
+    "contact": { "email": "mdtajalislam1189@gmail.com" }
+  },
+  "host": "localhost:1337/",
+  "schemes": ["http"],
+  "paths": {
+    "/api/auth/signup": {
+      "post": {
+        "responses": {},
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": { "$ref": "#/definitions/Auth" }
+          }
+        ]
+      }
+    }
+  },
+  "securityDefinitions": {
+    "bearerAuth": {
+      "name": "Authorization",
+      "in": "header",
+      "type": "apiKey",
+      "description": "JWT Authorization header"
+    }
+  },
+  "definitions": {
+    "Auth": {
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "example": "tajal@gmail.com" },
+        "username": { "type": "string", "example": "tajal_islam" },
+        "password": { "type": "string", "example": "Aa123123" },
+        "passwordConfirmation": { "type": "string", "example": "Aa123123" },
+        "own_gender": { "type": "string", "example": "Male" },
+        "find_gender": { "type": "string", "example": "Female" },
+        "mobile_num": { "type": "string", "example": "+8801883950739" },
+        "verify_code": { "type": "string", "example": "1234" },
+        "verify_time_limit": { "type": "string", "example": "90" }
+      }
+    }
+  }
+}

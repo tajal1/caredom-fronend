@@ -1,0 +1,23 @@
+version: '3'
+services:
+    db:
+      image: mongo
+      restart: unless-stopped
+      environment:
+        - POSTGRES_DB=tech_blog
+        - POSTGRES_USER=root
+        - POSTGRES_PASSWORD=password
+      ports:
+        - "27017:27017"
+
+    app:
+      image: tajalislam/tech-forum
+      build: .
+      command: npm run dev
+      # command: ["npm", "start"]
+      volumes:
+        - .:/app/backend
+      ports:
+        - "1339:1339"
+      depends_on:
+        - db
