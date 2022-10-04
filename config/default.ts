@@ -1,6 +1,6 @@
 export default {
   port: 1337,
-  dbUri: "mongodb://localhost:27017/jmc",
+  dbUri: "mongodb+srv://rootl:passwordlid@cluster0.sjv6itt.mongodb.net/lid",
   saltWorkFactor: 10,
   accessTokenTtl: "115m",
   fileBasePath: "/home/taj/Desktop/Testing-Express-REST-API/uploads/",
