@@ -1,5 +1,6 @@
+require("dotenv").config();
 export default {
-  port: 1337,
+  port: process.env.PORT || 8080,
   dbUri: "mongodb+srv://rootl:passwordlid@cluster0.sjv6itt.mongodb.net/lid",
   saltWorkFactor: 10,
   accessTokenTtl: "115m",

@@ -16,7 +16,7 @@
     "cors": "^2.8.5",
     "csvtojson": "^2.0.10",
     "dayjs": "^1.10.7",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.3",
     "example-typescript-package": "^0.2.2",
     "express": "^4.17.1",
     "ip": "^1.1.5",
