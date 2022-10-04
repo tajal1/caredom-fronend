@@ -3,5 +3,4 @@ dist
 node_modules
 .env*
 .idea
-package-lock.json
-yarn.lock
+yarn*.lock
