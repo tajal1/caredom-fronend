@@ -52,9 +52,8 @@ export async function verifyOTP(
   console.log(update.verifyCode === user.verifyCode, user.isVerify === false);
 
   if (update.verifyCode === user.verifyCode && user.isVerify === false) {
-    update["verifyCode"] = "null";
-    update["isVerify"] = true;
-    console.log(update);
+    update.verifyCode == null;
+    update.isVerify == true;
 
     const verifyOTP = await UserModel.findOneAndUpdate(query, update, options);
     return (responsedata.message = "OTP verify sucessfully");

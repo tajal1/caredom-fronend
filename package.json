@@ -5,7 +5,9 @@
   "author": "Tom Nagle",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && ts-node dist/src/app",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "test": "jest"
   },
   "dependencies": {
@@ -29,6 +31,7 @@
     "prettier": "^2.6.0",
     "swagger-jsdoc": "^6.2.5",
     "swagger-ui-express": "^4.5.0",
+    "ts-node": "^10.9.1",
     "yamljs": "^0.3.0",
     "zod": "^3.9.5"
   },
